@@ -1,20 +1,23 @@
+<h1> My todos </h1>
 
-<table border="1">
-  <caption>Todos</caption>
-  <thead>
+<div class="container">
+  <table class="table">
+    <thead>
     <tr>
       <th>description</th>
       <th>target date</th>
       <th>is complited</th>
     </tr>
-  </thead>
-  <tbody >
+    </thead>
+    <tbody >
     <tr *ngFor="let todo of todos">
       <td>{{todo.description}}</td>
       <td>{{todo.targetDate | date | uppercase }}</td><!-- Pipes -->
       <td>{{todo.done}}</td>
 
     </tr>
-  </tbody>
+    </tbody>
 
-</table>
+  </table>
+
+</div>
