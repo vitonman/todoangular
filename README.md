@@ -1,4 +1,4 @@
-# Todo-list application backend
+# Todo-list application frontend
 
 
 A simple full-stack restful todo application where you can log-in, create TODO in todolist,
