@@ -1,27 +1,48 @@
-# Todolist
+# Todo-list application backend
+#
+#
+A simple full-stack restful todo application where you can log-in, create TODO in todolist,
+update, delete and modify. Data stored in-memory H2DB.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+- [Backend Spring-boot side]
+- [Frontend Angular side]
+- ✨Magic ✨
 
-## Development server
+## Technologies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular 5/TypeScript
+- Spring Boot + Spring Security (2.5.6)
+- H2DB
+- Bootstrap 5 
+- JPA
+- JSON Web Token - jwt.io
 
-## Code scaffolding
+The main task of the project was to educate and improve knowledge of angular and the relationship between Angular and Spring-boot. This is my first project on Angular technology. To build the project, I used Youtube resources and various blogs.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pictures
+#
 
-## Build
+- Basic Authorization
+![N|Solid](https://i.ibb.co/CHcLGyf/3.png)
+- The main menu of the application
+![N|Solid](https://i.ibb.co/v1bp1Fs/1.png)
+- Menu of Creating/update todo.
+![N|Solid](https://i.ibb.co/n30HhdY/2.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+You can just open 2 projects in you IDE and run it.
+Frontend-> http://localhost:4200/
+Backend-> http://localhost:8080/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+When you close server side information will be lost.
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+MIT
+
+   [Frontend angular side]: <https://github.com/vitonman/todoangular>
+   [Backend Spring-boot side]: <https://github.com/vitonman/todoapplication>
+ 
