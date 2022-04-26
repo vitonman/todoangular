@@ -6,8 +6,7 @@ update, delete and modify. Data stored in-memory H2DB.
 
 - [Backend Spring-boot side]
 - [Frontend Angular side]
-- ✨Magic ✨
-
+- 
 ## Technologies
 
 - Angular 5/TypeScript
